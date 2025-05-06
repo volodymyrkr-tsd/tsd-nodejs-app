@@ -1,0 +1,10 @@
+[project]
+id = "com.tsd.nodejs-app"
+name = "TSD Node.js CNB App"
+version = "0.1.0"
+
+[[build.buildpacks]]
+uri = "https://github.com/YOUR-ORG/node-js-buildpack"
+
+[build]
+exclude = ["*.md"]
