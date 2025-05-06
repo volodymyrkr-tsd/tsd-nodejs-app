@@ -4,6 +4,9 @@ name = "TSD Node.js CNB App"
 version = "0.1.0"
 
 [[build.buildpacks]]
+uri = "urn:cnb:registry:paketo-buildpacks/nodejs"
+
+[[build.buildpacks]]
 uri = "https://github.com/volodymyrkr-tsd/node-js-buildpack"
 
 [build]
