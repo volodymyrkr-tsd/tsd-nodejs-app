@@ -4,7 +4,7 @@ name = "TSD Node.js CNB App"
 version = "0.1.0"
 
 [[build.buildpacks]]
-uri = "https://github.com/YOUR-ORG/node-js-buildpack"
+uri = "https://github.com/volodymyrkr-tsd/node-js-buildpack"
 
 [build]
 exclude = ["*.md"]
