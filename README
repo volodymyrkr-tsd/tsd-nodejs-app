@@ -1,0 +1,8 @@
+## For local build
+pack build tsd-nodejs-app   --builder paketobuildpacks/builder:base   --buildpack paketo-buildpacks/nodejs   --buildpack ../node-js-buildpack   --path .   --pull-policy if-not-present
+
+## For local start
+docker run --rm -p 8080:8080 tsd-nodejs-app
+
+## For local stop
+docker stop container_id
