@@ -4,7 +4,7 @@ name = "TSD Node.js CNB App"
 version = "0.1.0"
 
 [[build.buildpacks]]
-uri = "urn:cnb:registry:paketo-buildpacks/nodejs"
+uri = "docker://gcr.io/paketo-buildpacks/nodejs"
 
 [build]
 exclude = ["*.md"]
